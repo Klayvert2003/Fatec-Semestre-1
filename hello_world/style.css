@@ -1,0 +1,33 @@
+html
+{
+    font-family: 'Lora', serif;    
+}
+
+header
+{
+    width: auto;
+    border-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background: rgba(80, 80, 80, 0, 2);
+    height: 50px;
+    line-height: 3cm;
+}
+
+header, h1
+{
+    text-align: center;
+    text-shadow: 1px 1px black;
+}
+
+footer
+{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+header, h1, footer, h1
+{
+    text-align: center;
+    text-shadow: 1px 1px black;
+}

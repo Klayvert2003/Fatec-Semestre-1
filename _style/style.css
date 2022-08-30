@@ -1,0 +1,79 @@
+
+:root {
+    --amarelo: #F9D423;  /* EDDE45   F9D423            */
+    --vermelho: #F03C02 ; /*  F03C02 6B0103  ff0000  A30006 F03C02 */
+    --verde: #3B8666 ; /*   00ff00 CFF09E A8DBA8 3B8666 */
+    --AZUL: #00  
+}
+header, footer{
+    width: auto;
+    background: rgba(80,80,80,0.2);
+    line-height: 3em;
+
+}
+
+header {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 11 0px;
+  
+}
+
+footer {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 50px;
+    
+}
+
+header h1, footer h1 {
+    text-align: center;
+    text-shadow: 1px 1px black;
+}
+
+
+article {
+    margin-top: 10px;
+    width: 40%;
+    border: 1px dashed red;
+    height: 400px;
+    margin-left: 5%;
+    position:relative ;
+    float: left;
+}
+
+
+Content {
+
+}
+
+
+
+.bgAmarelo  {background-color: var(--amarelo);}
+.bgAzul     {background-color: #0000FF;}
+.bgVermelho {background-color: var(--vermelho);}
+.bgVerde    {background-color: var(--verde);}
+.bgPreto    {background-color: #000000;}
+.bgFalha    {background-image: url(../_img/fail.jpg);}
+
+.txtBranco    {color: #ffffff;}
+.txtAmarelo   {color: var(--amarelo);}
+.txtAzul      {color: #0000ff;}
+.txtVermelho  {color: var(--vermelho);}
+.txtVerde     {color: var(--verde);}
+.txtPreto     {color: #000000;}
+
+.borda-0   {border: none;}
+.borda-1   {border: solid 1px;}
+.borda-2   {border: solid 2px;}
+.borda-3   {border: solid 3px;}
+.borda-r0  {border-radius: 0px;}
+.borda-r5  {border-radius: 5px;}
+.borda-r10 {border-radius: 10px;}
+
+.bordaBranco   {border-color: #ffffff;}
+.bordaAmarelo  {border-color: var(--amarelo);}
+.boradaAzul    {border-color: #0000ff;}
+.bordaVermelho {border-color: var(--vermelho)}
+.bordaVerde    {border-color: var(--verde);}
+.bordaPreto    {border-color: #000000;}

@@ -1,0 +1,80 @@
+@media screen and (max-width: 960px) {
+    header {
+        flex-direction: column;
+        margin-right: 80px;
+    }
+
+    body{
+       overflow-x: hidden;        
+    }
+
+    main {
+        flex-direction: column;
+        margin-right: 80px;
+    }
+
+    h1{
+        margin-left: 80px;
+    }
+
+    .blue_1{
+        margin-left: 100px;
+    }
+    h2 {
+        font-size: 58px;
+        margin-top: -10px;
+    }
+
+    p{
+        margin-right: 80px;
+    }
+    form {
+        margin: 0 auto;
+        margin-top: -5px;
+    }
+    input {
+        align-self: center;
+    }
+    img {
+        display: none;
+    }
+    ul {
+        text-align: center;
+        margin-right: 80px;
+    }
+
+    li{
+        margin-left: 200px;
+    }
+    .registro{
+display: none;
+}
+    .content{
+        display: none;
+    }
+.a_registro{
+display: none;
+}
+    .box{
+        color: white;
+        position: absolute;
+        top: 70%;
+        left: 70%;
+        transform: translate(-100%, -20%);
+        background-color: rgb(0, 0, 0, 0.8);
+        padding: 20px;
+        border-radius: 15px;
+        width: 80%;
+        margin-top: 20px;
+        margin-left: 80px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 961px) {
+    body {
+        overflow: hidden;
+    
+    }
+
+}

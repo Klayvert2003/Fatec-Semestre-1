@@ -1,0 +1,99 @@
+header, footer {
+    width: auto;
+    background: rgba(80,80,80,0.2);
+    line-height: 3em;
+}
+
+header {
+   
+    border-top-right-radius: 10px ;
+    border-top-left-radius: 10px;
+    height: 110px;
+    
+}
+
+:root {
+--amarelo: #F9D423; 
+
+
+
+}
+
+.moveimg {
+    
+    display: block;
+    width: 245px;
+    height: 288px;
+    background-image: url(../objetos/xerou.jpg);
+    text-indent: -9999px;
+    margin: 20px;
+
+}
+
+.moveimg:hover {
+    background-position: -210px;
+}
+
+
+
+
+
+footer {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 50px;
+    color: rgb(0, 255, 98);
+    font: 3em;
+}
+
+header, h1,footer p {
+    text-align: center;
+    text-shadow: 1px 1px black;
+}
+
+
+::content {
+width: 100%;
+height: 40%;
+
+
+
+}
+
+article {
+    margin-top: 10px;
+    width: 40%;
+    border: 1px dashed red;
+    height: 400px;
+    margin-left: 5%;
+    position: relative;
+    float: left;
+}
+
+.bgamarelo {background-color:var(--amarelo);}
+.bgazul {background-color: var(--azul);}
+.bgvermelho {background-color: var(--vermelho);}
+.bgverde {background-color: var(--verde);}
+.bgpreto {background-color: var(--black);}
+
+.txtbranco {color: white;}
+.txtamarelo {color:yellow;}
+.txtazul {color: blue;}
+.txtvermelho {color: red;}
+.txtverde {color:green;}
+.txtpreto {color:black;}
+
+.borda-0 {border: none;}
+.borda-1 {border: solid 1px;}
+.borda-2 {border: solid 2px;}
+.borda-3 {border: solid 3px;}
+.borda-r0 {border-radius: 0px;}
+.borda-r5 {border-radius: 5px;}
+.borda-r10 {border-radius: 10px;}
+
+.bordaBranco {border-color: white;}
+.bordaAmarelo {border-color: yellow;}
+.bordaAzul {border-color: blue;}
+.bordaVermelho {border-color: red;}
+.bordaVerde {border-color: green;}
+.bordaPreto {border-color: black;}

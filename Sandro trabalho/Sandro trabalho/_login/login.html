@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/4bfb2e9e49.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../media.css" />
+
+    <title>Login</title>
+  </head>
+  <body>
+    <header>
+      <div id="title">
+        <h1>Garrafa</h1>
+        <h1 class="blue_1">Azul</h1>
+      </div>
+      <ul>
+        <a href="../index.html">
+          <li>Inicio</li>
+        </a>
+        <a href="../_products/fruta.html">
+          <li>Frutas</li>
+        </a>
+        <a href="../_products/legume.html">
+          <li>Legumes</li>
+        </a>
+        <a href="../_login/login.html">
+          <li>Login</li>
+        </a>
+        <a href="../_register/register.html">
+          <li class="register_home">Registro</li>
+        </a>
+      </ul>
+    </header>
+
+    <div class="box">
+      <form action="">
+        <fieldset>
+          <legend>Entre já!</legend>
+          <br />
+          <div class="inputBox">
+            <input
+              type="text"
+              name="nome"
+              id="nome"
+              class="inputUser"
+              required
+            />
+            <label for="nome" class="labelInput">Email ou Usuário</label>
+          </div>
+          <br /><br />
+          <div class="inputBox">
+            <input
+              type="text"
+              name="email"
+              id="email"
+              class="inputUser"
+              required
+            />
+            <label for="text" class="labelInput">Senha</label>
+          </div>
+          <br />
+          <input type="submit" name="submit" id="submite" />
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>

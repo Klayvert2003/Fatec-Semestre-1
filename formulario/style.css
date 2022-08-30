@@ -1,0 +1,55 @@
+form{
+    border: 1px dashed red;
+    background-color: aqua;
+    border-radius: 5px;
+    width: 500px;
+    padding: 20px;
+    left: 50%;
+    margin-left: 500px;
+    line-height: 1.5rem;
+}
+
+
+.login{
+    margin-left: 4px;
+}
+
+.senha {
+    margin-top: 20px;
+}
+
+.email {
+    margin-left: 4px;
+    margin-top: 20px;
+}
+
+.idade{
+    margin-top: 20px;
+    margin-left: 6px;
+}
+
+.radio{
+    margin-bottom: 15px;
+}
+
+.int{
+    margin-top: 26px;
+    margin-left: 6px;
+}
+
+.check{
+    margin-top: 16px;
+}
+
+.est{
+    margin-top: 20px;
+    margin-left: 6px;
+}
+
+#uf{
+    margin-top: 10px;
+}
+
+.ob{
+    margin-top: 20px;
+}

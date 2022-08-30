@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastrot</title>
+</head>
+<body>
+
+    <form method="POST" action="cadastro.html?pagquerreceberform">
+        <p>Inscrição</p>
+        Login:
+        <input  type="text" name="Login" class="login">
+        <br>
+        Senha:
+        <input  type="password" name="Passowrd" class="senha">
+        <br>
+
+        Email:
+        <input type="email" name="Email"  class="email">
+        <br>
+
+        <div class="idade">
+        Idade:
+        </div>
+        <br>
+        <div class="radio">
+        <input type="radio" name="idade" value="faixa-1"> 18-26 anos<br>
+        <input type="radio" name="idade" value="faixa-2"> 27-34 anos<br>
+        <input type="radio" name="idade" value="faixa-3"> 35-48 anos<br>
+        <input type="radio" name="idade" value="faixa-4"> 49-54 anos<br>
+        <input type="radio" name="idade" value="faixa-5"> Acima de 65 anos<br>
+    </div>
+   
+    <div class="int">
+    Interesse: 
+    </div>
+    <div class="check">
+    <input type="checkbox" name="int-futebol" value="faixa-1"> Futbeol<br>
+    <input type="checkbox" name="int-curso" value="faixa-2"> Vôlei<br>
+    <input type="checkbox" name="int-tenis" value="faixa-3"> Basquete<br>
+    <input type="checkbox" name="int-natacao" value="faixa-4"> Tenis<br>
+     </div>
+
+    <div class="est">
+    Estado:
+    </div>
+    <select name="uf" id="uf">
+        <option value="SP">São Paulo</option>
+        <option value="RJ">Rio De Janeiro</option>
+        <option value="MG">Minas Gerais</option>
+        <option value="ES">Espirito Santo</option>
+    </select>
+
+    <div class="ob">
+    Observação:
+    </div>
+    <textarea>
+   
+    </textarea>
+
+    <div class="en">
+    <input type="submit" name="enviar">
+    </div>
+    </div>
+
+    </form>
+    
+</body>
+</html>

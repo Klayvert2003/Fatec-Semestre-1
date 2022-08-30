@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif;
+    overflow: hidden;
+    background: linear-gradient(72deg, #95e68d  1%, #b7deeb 99%);
+
+    font-family: 'Times New Roman', Times, serif;
+   
+
+    
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -40px;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 48px;
+    margin-top: 20px;
+    margin-left: 48px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+a:hover {
+    color: rgb(250, 253, 76);
+    transition: 0.3s all;
+}
+
+
+
+.bottle {
+    font-weight: 200;
+    font-size: 40px;
+    color: white;
+    margin-left: 20px;
+}
+
+.blue_1 {
+    margin-left: 48px;
+    color: rgb(250, 253, 76);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+
+.content_card   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 98%;
+    height: 100vh;
+    
+  
+   
+}
+
+.card{
+    background-color: white;
+    box-shadow: 0px 2px 23px #000;
+    border-radius: 20px;
+    width: 300px;
+    margin-left: 20px;
+}
+.title_prod{
+    color: rgb(0, 0, 0);
+}
+
+.topcard{
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.mediacard{
+    background:url("https://th.bing.com/th/id/R.94d9d58a6b7a4c8dbf37d5392a2b9ea9?rik=eZ%2b0d7kdKYqMJw&riu=http%3a%2f%2fwww.spearhead-training.co.uk%2fwp-content%2fuploads%2f2014%2f09%2fbigstock-Two-business-people-talking-en-53576668.jpg&ehk=5jhRzSAKyeLzwZM46VJOoCFofLAMt7lDSkwejfWspDM%3d&risl=&pid=ImgRaw&r=0")
+    center/cover;
+    height: 200px;
+    width: 100%;
+}
+.mediacard2{
+    background:url("https://philip.nhatkimanh.vn/wp-content/uploads/2021/02/image-30.png")
+    center/cover;
+    height: 200px;
+    width: 100%;
+}
+.mediacard3{
+    background:url("https://th.bing.com/th/id/OIP.NQq_QHVnDHK_YNTFHiDweAHaFD?pid=ImgDet&rs=1")
+    center/cover;
+    height: 200px;
+    width: 100%;
+}
+.mediacard4{
+    background:url("https://s3.amazonaws.com/freestock-prod/450/freestock_75026872.jpg")
+    center/cover;
+    height: 200px;
+    width: 100%;
+}
+.mediacard5{
+    background:url("https://www.falamart.com.br/wp-content/uploads/2018/06/D5eLddbWAAAcSDO-e1559851615202.jpg")
+    center/cover;
+    height: 200px;
+    width: 100%;
+}
+
+.mediacard6{
+    background:url("https://cozinhatecnica.com/wp-content/uploads/2019/01/berinjela.jpg")
+    center/cover;
+    height: 200px;
+    width: 100%;
+}
+.mediacard7{
+    background:url("https://cdn.dooca.store/457/products/cenoura-organica_1600x1600+fill_ffffff.png?v=1588556578&webp=0")
+    center/cover;
+    height: 200px;
+    width: 100%;
+}
+.mediacard8{
+    background:url("https://hiperideal.vteximg.com.br/arquivos/ids/167687-1000-1000/46906.jpg?v=636615816230930000")
+    center/cover;
+    height: 200px;
+    width: 100%;
+}
+.mediacard9{
+    background:url("https://www.quitandatomio.com.br/upload/274714611-nabo-conheca-os-beneficios-desse-legume-que-ajuda-na-saude-do-coracao.jpg")
+    center/cover;
+    height: 200px;
+    width: 100%;
+}
+.mediacard10{
+    background:url("https://storage.googleapis.com/facily-images/f236f5ed-chuchu-1kg-vendido-por-jb-frutas-e-legumes-0-1620841872.jpg")
+    center/cover;
+    height: 200px;
+    width: 100%;
+}
+
+.bottomcard{
+    padding: 20px;
+}
+
+.action{
+    background: none;
+    border:none;
+    color: rgb(45, 150, 199);
+    cursor: pointer;
+}
+
+.conteiner-form{
+    columns: auto;
+    width: 50%;
+   
+}
+
+.form-control{
+    height: 50px;
+}
+
+.col-md-3{
+    height: 80px;
+}
