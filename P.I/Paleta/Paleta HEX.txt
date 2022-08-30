@@ -1,0 +1,6 @@
+green-pigment: #48a460ff;
+russian-green: #648767ff;
+bud-green: #83bd75ff;
+turquoise-green: #9fd4aaff;
+pale-spring-bud: #e9efc0ff;
+black: #000000ff;
